@@ -31,9 +31,3 @@ A network without this modal information could potentially learn multiple behavi
 
 The behavioral information is inserted as a three channel binary tensor, where each channel represents a different behavioral modality. In order to concatenate with the image going through the convolutional network, the behavioral information is replicated in the spatial dimensions to form a binary tensor of size 3x13x26. The behavioral mode information insertion point in the network was chosen to be after the first convolutional layer in Z2Color (\Cref{fig:squeeze}), allowing for the earlier convolutional layer to generalize basic image processing of the input data without considering behaviors of individual modalities. This replicates the processing of visual data in the macaque monkey in which the early visual cortex receives contextual information from the feedback connections of the frontal cortex from a higher visual cortex. \cite{zipser1996contextual}. Similar mode agnostic convolution or processing in initial layers of a network have been shown to be effective with multiple modalities \cite{firstlayernometa}.
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=\linewidth]{paper/content/images/mtl}
-\caption{Multi-Modal Validation of MultiNet and MTL Networks with 95\% Confidence Intervals}
-\label{fig:lve}
-\end{figure}

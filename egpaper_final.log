@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.14)  30 JUN 2018 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.14)  2 JUL 2018 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,7 +22,26 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./wacv.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 143.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+)) (./wacv.sty
 (./eso-pic.sty
 Package: eso-pic 2002/11/16 v1.1b eso-pic (RN)
  (./wacv_eso.sty
@@ -42,15 +61,15 @@ wacv 8.5 x 11-Inch Proceedings Style `wacv.sty'.
 \@ctmp=\skip43
 \@figindent=\skip44
 \wacvrulerbox=\box26
-\wacvrulercount=\count87
+\wacvrulercount=\count88
 \wacvruleroffset=\dimen103
 \cv@lineheight=\dimen104
 \cv@boxheight=\dimen105
 \cv@tmpbox=\box27
-\cv@refno=\count88
-\cv@tot=\count89
-\cv@tmpc@=\count90
-\cv@tmpc=\count91
+\cv@refno=\count89
+\cv@tot=\count90
+\cv@tmpc@=\count91
+\cv@tmpc=\count92
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
 
@@ -80,10 +99,10 @@ ox {\small \noindent #1.~#2} \setlength {\@ctmp }{\hsize } \addtolength {\@ctmp
  }{-\@figindent }\addtolength {\@ctmp }{-\@figindent } \ifdim \wd \@tempboxa >\
 @ctmp {\small #1.~#2\par } \else \hbox to\hsize {\hfil \box \@tempboxa \hfil } 
 \fi .
-\c@ContinuedFloat=\count92
+\c@ContinuedFloat=\count93
 )
-\c@subfigure=\count93
-\c@subtable=\count94
+\c@subfigure=\count94
+\c@subtable=\count95
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
@@ -94,18 +113,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 95.
-
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count95
-))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
@@ -399,38 +407,25 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 ) (./egpaper_final.aux)
 \openout1 = `egpaper_final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-ABD: EveryShipout initializing macros
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 143.
-)
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
-Package caption Info: End \AtBeginDocument code.
-
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count124
@@ -444,7 +439,12 @@ Package caption Info: End \AtBeginDocument code.
 \MPnumerator=\count128
 \makeMPintoPDFobject=\count129
 \everyMPtoPDFconversion=\toks22
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) ABD: EveryShipout initializing macros
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -461,7 +461,7 @@ e
 ))
 \AtBeginShipoutBox=\box33
 Package atbegshi Info: Package `everyshi' patched.
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -471,47 +471,47 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count130
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
 
 (./egpaper_final.out) (./egpaper_final.out)
 \@outlinefile=\write3
 \openout3 = `egpaper_final.out'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 60
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 62
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 60
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 62
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 60
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 62
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 60
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 62
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -537,18 +537,12 @@ Package epstopdf Info: Source file: <paper/content/images/fleet.eps>
 (epstopdf)                    size: 3078270 bytes
 (epstopdf)             Output file: <paper/content/images/fleet-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:46
+(epstopdf)                    date: 2018-07-02 10:48:55
 (epstopdf)                    size: 383861 bytes
 (epstopdf)             Command: <repstopdf --outfile=paper/content/images/fleet
 -eps-converted-to.pdf paper/content/images/fleet.eps>
 (epstopdf)             \includegraphics on input line 94.
-runsystem(repstopdf --outfile=paper/content/images/fleet-eps-converted-to.pdf p
-aper/content/images/fleet.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <paper/content/images/fleet-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:52
-(epstopdf)                    size: 383861 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <paper/content/images/fleet-eps-converted-to.pdf, id=78, 2040.62375pt x 402.503
 75pt>
@@ -627,18 +621,12 @@ Package epstopdf Info: Source file: <paper/content/images/muddy.eps>
 (epstopdf)                    size: 522357 bytes
 (epstopdf)             Output file: <paper/content/images/muddy-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:47
+(epstopdf)                    date: 2018-07-02 10:48:55
 (epstopdf)                    size: 63043 bytes
 (epstopdf)             Command: <repstopdf --outfile=paper/content/images/muddy
 -eps-converted-to.pdf paper/content/images/muddy.eps>
 (epstopdf)             \includegraphics on input line 94.
-runsystem(repstopdf --outfile=paper/content/images/muddy-eps-converted-to.pdf p
-aper/content/images/muddy.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <paper/content/images/muddy-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:53
-(epstopdf)                    size: 63043 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <paper/content/images/muddy-eps-converted-to.pdf, id=82, 377.41pt x 210.7875pt>
 File: paper/content/images/muddy-eps-converted-to.pdf Graphic file (type pdf)
@@ -651,18 +639,12 @@ Package epstopdf Info: Source file: <paper/content/images/rainy.eps>
 (epstopdf)                    size: 446282 bytes
 (epstopdf)             Output file: <paper/content/images/rainy-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:48
+(epstopdf)                    date: 2018-07-02 10:48:56
 (epstopdf)                    size: 32994 bytes
 (epstopdf)             Command: <repstopdf --outfile=paper/content/images/rainy
 -eps-converted-to.pdf paper/content/images/rainy.eps>
 (epstopdf)             \includegraphics on input line 94.
-runsystem(repstopdf --outfile=paper/content/images/rainy-eps-converted-to.pdf p
-aper/content/images/rainy.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <paper/content/images/rainy-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:53
-(epstopdf)                    size: 32994 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <paper/content/images/rainy-eps-converted-to.pdf, id=83, 376.40625pt x 210.7875
 pt>
@@ -676,18 +658,12 @@ Package epstopdf Info: Source file: <paper/content/images/bumpy.eps>
 (epstopdf)                    size: 501478 bytes
 (epstopdf)             Output file: <paper/content/images/bumpy-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:48
+(epstopdf)                    date: 2018-07-02 10:48:56
 (epstopdf)                    size: 45595 bytes
 (epstopdf)             Command: <repstopdf --outfile=paper/content/images/bumpy
 -eps-converted-to.pdf paper/content/images/bumpy.eps>
 (epstopdf)             \includegraphics on input line 94.
-runsystem(repstopdf --outfile=paper/content/images/bumpy-eps-converted-to.pdf p
-aper/content/images/bumpy.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <paper/content/images/bumpy-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:54
-(epstopdf)                    size: 45595 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <paper/content/images/bumpy-eps-converted-to.pdf, id=84, 376.40625pt x 209.7837
 5pt>
@@ -701,18 +677,12 @@ Package epstopdf Info: Source file: <paper/content/images/directexample.eps>
 (epstopdf)                    size: 500623 bytes
 (epstopdf)             Output file: <paper/content/images/directexample-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:49
+(epstopdf)                    date: 2018-07-02 10:48:57
 (epstopdf)                    size: 90525 bytes
 (epstopdf)             Command: <repstopdf --outfile=paper/content/images/direc
 texample-eps-converted-to.pdf paper/content/images/directexample.eps>
 (epstopdf)             \includegraphics on input line 94.
-runsystem(repstopdf --outfile=paper/content/images/directexample-eps-converted-
-to.pdf paper/content/images/directexample.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <paper/content/images/directexample-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:54
-(epstopdf)                    size: 90525 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <paper/content/images/directexample-eps-converted-to.pdf, id=85, 803.0pt x 449.
 68pt>
@@ -727,18 +697,12 @@ Package epstopdf Info: Source file: <paper/content/images/followexample.eps>
 (epstopdf)                    size: 554323 bytes
 (epstopdf)             Output file: <paper/content/images/followexample-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:49
+(epstopdf)                    date: 2018-07-02 10:48:57
 (epstopdf)                    size: 134458 bytes
 (epstopdf)             Command: <repstopdf --outfile=paper/content/images/follo
 wexample-eps-converted-to.pdf paper/content/images/followexample.eps>
 (epstopdf)             \includegraphics on input line 94.
-runsystem(repstopdf --outfile=paper/content/images/followexample-eps-converted-
-to.pdf paper/content/images/followexample.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <paper/content/images/followexample-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:55
-(epstopdf)                    size: 134458 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <paper/content/images/followexample-eps-converted-to.pdf, id=86, 817.0525pt x 4
 56.70625pt>
@@ -753,18 +717,12 @@ Package epstopdf Info: Source file: <paper/content/images/furtiveexample.eps>
 (epstopdf)                    size: 523686 bytes
 (epstopdf)             Output file: <paper/content/images/furtiveexample-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:50
+(epstopdf)                    date: 2018-07-02 10:48:58
 (epstopdf)                    size: 109252 bytes
 (epstopdf)             Command: <repstopdf --outfile=paper/content/images/furti
 veexample-eps-converted-to.pdf paper/content/images/furtiveexample.eps>
 (epstopdf)             \includegraphics on input line 94.
-runsystem(repstopdf --outfile=paper/content/images/furtiveexample-eps-converted
--to.pdf paper/content/images/furtiveexample.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <paper/content/images/furtiveexample-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:55
-(epstopdf)                    size: 109252 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <paper/content/images/furtiveexample-eps-converted-to.pdf, id=87, 773.89125pt x
  433.62pt>
@@ -777,23 +735,74 @@ df used on input line 94.
 
 Underfull \vbox (badness 1838) has occurred while \output is active []
 
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color push 0 g 0 G
+color pop
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+color pop
 
 
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color push 0 g 0 G
+color pop
+color pop
+color push 0 g 0 G
+color pop
  <./paper/content/images/car.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2 <./paper/content/images/fleet-eps-converted-to.pdf> <./paper/content/images
-/daytime-eps-converted-to.pdf> <./paper/content/images/evening-eps-converted-to
-.pdf> <./paper/content/images/night-eps-converted-to.pdf> <./paper/content/imag
-es/muddy-eps-converted-to.pdf> <./paper/content/images/rainy-eps-converted-to.p
-df> <./paper/content/images/bumpy-eps-converted-to.pdf> <./paper/content/images
-/directexample-eps-converted-to.pdf> <./paper/content/images/followexample-eps-
-converted-to.pdf> <./paper/content/images/furtiveexample-eps-converted-to.pdf>]
-)
+ [2
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color push 0 g 0 G
+color pop
+color pop
+color push 0 g 0 G
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color pop
+color push 0 g 0 G
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+ <./paper/content/images/fleet-eps-converted-to.pdf> <./paper/content/images/da
+ytime-eps-converted-to.pdf> <./paper/content/images/evening-eps-converted-to.pd
+f> <./paper/content/images/night-eps-converted-to.pdf> <./paper/content/images/
+muddy-eps-converted-to.pdf> <./paper/content/images/rainy-eps-converted-to.pdf>
+ <./paper/content/images/bumpy-eps-converted-to.pdf> <./paper/content/images/di
+rectexample-eps-converted-to.pdf> <./paper/content/images/followexample-eps-con
+verted-to.pdf> <./paper/content/images/furtiveexample-eps-converted-to.pdf>])
 (./paper/content/dataset.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -830,7 +839,22 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
 (hyperref)                removed on input line 34.
 
-[3]
+[3
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
@@ -841,18 +865,12 @@ Package epstopdf Info: Source file: <paper/content/images/data_moment.eps>
 (epstopdf)                    size: 1122764 bytes
 (epstopdf)             Output file: <paper/content/images/data_moment-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:51
+(epstopdf)                    date: 2018-07-02 10:48:58
 (epstopdf)                    size: 191433 bytes
 (epstopdf)             Command: <repstopdf --outfile=paper/content/images/data_
 moment-eps-converted-to.pdf paper/content/images/data_moment.eps>
 (epstopdf)             \includegraphics on input line 45.
-runsystem(repstopdf --outfile=paper/content/images/data_moment-eps-converted-to
-.pdf paper/content/images/data_moment.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <paper/content/images/data_moment-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2018-06-30 17:04:56
-(epstopdf)                    size: 191433 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <paper/content/images/data_moment-eps-converted-to.pdf, id=195, 565.11125pt x 3
 00.12125pt>
@@ -882,38 +900,29 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
 (hyperref)                removed on input line 12.
 
-[4 <./paper/content/images/z2color.pdf> <./paper/content/images/data_moment-eps
--converted-to.pdf>]
+
 Underfull \hbox (badness 1430) in paragraph at lines 18--19
 \OT1/ptm/m/n/10 al-low-ing for Field Pro-grammable Gate Ar-ray (FPGA)
  []
 
+[4
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color push 0 g 0 G
+color pop
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+ <./paper/content/images/data_moment-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
 (hyperref)                removed on input line 26.
 
-Package epstopdf Info: Source file: <paper/content/images/mtl.eps>
-(epstopdf)                    date: 2018-06-30 14:46:04
-(epstopdf)                    size: 198275 bytes
-(epstopdf)             Output file: <paper/content/images/mtl-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2018-06-30 14:47:14
-(epstopdf)                    size: 11821 bytes
-(epstopdf)             Command: <repstopdf --outfile=paper/content/images/mtl-e
-ps-converted-to.pdf paper/content/images/mtl.eps>
-(epstopdf)             \includegraphics on input line 36.
-Package epstopdf Info: Output file is already uptodate.
-
-<paper/content/images/mtl-eps-converted-to.pdf, id=266, 424.58624pt x 314.17375
-pt>
-File: paper/content/images/mtl-eps-converted-to.pdf Graphic file (type pdf)
- <use paper/content/images/mtl-eps-converted-to.pdf>
-Package pdftex.def Info: paper/content/images/mtl-eps-converted-to.pdf used on 
-input line 36.
-(pdftex.def)             Requested size: 237.13594pt x 175.47108pt.
-)
-(./paper/content/results.tex
+) (./paper/content/results.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
@@ -924,11 +933,44 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
 (hyperref)                removed on input line 6.
 
-[5 <./paper/content/images/mtl-eps-converted-to.pdf>]
+[5
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color push 0 g 0 G
+color pop
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+ <./paper/content/images/z2color.pdf>]
+Package epstopdf Info: Source file: <paper/content/images/mtl.eps>
+(epstopdf)                    date: 2018-06-30 14:46:04
+(epstopdf)                    size: 198275 bytes
+(epstopdf)             Output file: <paper/content/images/mtl-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2018-06-30 14:47:14
+(epstopdf)                    size: 11821 bytes
+(epstopdf)             Command: <repstopdf --outfile=paper/content/images/mtl-e
+ps-converted-to.pdf paper/content/images/mtl.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
+
+<paper/content/images/mtl-eps-converted-to.pdf, id=283, 424.58624pt x 314.17375
+pt>
+File: paper/content/images/mtl-eps-converted-to.pdf Graphic file (type pdf)
+ <use paper/content/images/mtl-eps-converted-to.pdf>
+Package pdftex.def Info: paper/content/images/mtl-eps-converted-to.pdf used on 
+input line 27.
+(pdftex.def)             Requested size: 237.13594pt x 175.47108pt.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 25.
+(hyperref)                removed on input line 32.
 
 Package epstopdf Info: Source file: <paper/content/images/individual_new.eps>
 (epstopdf)                    date: 2018-06-30 14:46:06
@@ -939,31 +981,45 @@ nverted-to.pdf>
 (epstopdf)                    size: 16499 bytes
 (epstopdf)             Command: <repstopdf --outfile=paper/content/images/indiv
 idual_new-eps-converted-to.pdf paper/content/images/individual_new.eps>
-(epstopdf)             \includegraphics on input line 30.
+(epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
 
-<paper/content/images/individual_new-eps-converted-to.pdf, id=304, 429.605pt x 
+<paper/content/images/individual_new-eps-converted-to.pdf, id=286, 429.605pt x 
 748.7975pt>
 File: paper/content/images/individual_new-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use paper/content/images/individual_new-eps-converted-to.pdf>
 Package pdftex.def Info: paper/content/images/individual_new-eps-converted-to.p
-df used on input line 30.
+df used on input line 43.
 (pdftex.def)             Requested size: 237.13594pt x 413.32524pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 42.
+(hyperref)                removed on input line 50.
 
-[6 <./paper/content/images/individual_new-eps-converted-to.pdf>]
+[6
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color push 0 g 0 G
+color pop
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+ <./paper/content/images/mtl-eps-converted-to.pdf>]
+Underfull \vbox (badness 3780) has occurred while \output is active []
+
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 50.
+(hyperref)                removed on input line 62.
 
 ) (./paper/content/conclusion.tex
-<paper/content/images/evaluation_path.pdf, id=328, 689.77701pt x 467.34601pt>
+<paper/content/images/evaluation_path.pdf, id=316, 689.77701pt x 467.34601pt>
 File: paper/content/images/evaluation_path.pdf Graphic file (type pdf)
 
 <use paper/content/images/evaluation_path.pdf>
@@ -976,7 +1032,23 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
 (hyperref)                removed on input line 8.
 
-) (./egpaper_final.bbl
+[7
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color push 0 g 0 G
+color pop
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color push 0 g 0 G
+color pop
+color pop
+color push 0 g 0 G
+color pop
+ <./paper/content/images/evaluation_path.pdf> <./paper/content/images/individua
+l_new-eps-converted-to.pdf>]) (./egpaper_final.bbl
 Underfull \hbox (badness 2486) in paragraph at lines 27--32
 []\OT1/ptm/m/n/9 A. Giusti, J. Guzzi, D. C. Cire[]an, F.-L. He, J. P.
  []
@@ -992,32 +1064,75 @@ File: omlptm.fd
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <9> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
- [7 <./paper/content/images/evaluation_path.pdf>]
+
 Underfull \hbox (badness 1728) in paragraph at lines 110--114
 []\OT1/ptm/m/n/9 Y. Zhang and D. Ye-ung.  A con-vex for-mu-la-tion for
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
  [8
-
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (./egpaper_final.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `egpaper_final.out' has not changed.
 (rerunfilecheck)             Checksum: BF21016348177E4658DF558CB88F90C0;1019.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 9262 strings out of 493029
- 151599 string characters out of 6136234
- 257934 words of memory out of 5000000
- 12541 multiletter control sequences out of 15000+600000
+ 9267 strings out of 493029
+ 151638 string characters out of 6136234
+ 262484 words of memory out of 5000000
+ 12545 multiletter control sequences out of 15000+600000
  52956 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,40p,1106b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,40p,1106b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/
@@ -1030,10 +1145,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on egpaper_final.pdf (8 pages, 3399042 bytes).
+Output written on egpaper_final.pdf (8 pages, 3401042 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 315 compressed objects within 4 object streams
+ 398 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
  65 named destinations out of 1000 (max. 500000)
  227 words of extra memory for PDF output out of 10000 (max. 10000000)
 
