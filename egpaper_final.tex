@@ -1,0 +1,79 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{wacv}
+\usepackage{subcaption}
+\usepackage{graphics} % for pdf, bitmapped graphics files
+\usepackage{epsfig} % for postscript graphics files
+\usepackage{mathptmx} % assumes new font selection scheme installed
+\usepackage{times} % assumes new font selection scheme installed
+\usepackage{amsmath} % assumes amsmath package installed
+\usepackage{amssymb}  % assumes amsmath package installed
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{cleveref}
+%\usepackage{flushend}
+\usepackage{afterpage}
+\usepackage{dblfloatfix}    % To enable figures at the bottom of page
+
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+%\usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false]{hyperref}
+
+
+\wacvfinalcopy % *** Uncomment this line for the final submission
+
+\def\wacvPaperID{****} % *** Enter the wacv Paper ID here
+\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+\ifwacvfinal\pagestyle{empty}\fi
+\setcounter{page}{1}
+\begin{document}
+
+%%%%%%%%% TITLE
+\title{MultiNet: Multi-Modal Multi-Task Learning for Autonomous Driving}
+
+% Authors at the same institution
+%\author{First Author \hspace{2cm} Second Author \\
+%Institution1\\
+%{\tt\small firstauthor@i1.org}
+%}
+% Authors at different institutions
+\author{Sauhaarda Chowdhuri \\
+Berkeley DeepDrive Center\\
+{\tt\small sauhaarda@berkeley.edu}
+\and
+Tushar Pankaj \\
+Berkeley DeepDrive Center\\
+{\tt\small tpankaj@berkeley.edu}
+\and
+Karl Zipser \\
+Berkeley DeepDrive Center\\
+{\tt\small karlzipser@berkeley.edu}
+}
+
+\maketitle
+\ifwacvfinal\thispagestyle{empty}\fi
+
+
+%%%%%%%%% ABSTRACT
+\begin{abstract}
+\input{paper/content/abstract}
+\end{abstract}
+
+\input{paper/content/intro}
+\input{paper/content/dataset}
+\input{paper/content/training}
+\input{paper/content/results}
+\input{paper/content/conclusion}
+
+{\small
+\bibliographystyle{ieee}
+\bibliography{egbib}
+}
+
+\end{document}
