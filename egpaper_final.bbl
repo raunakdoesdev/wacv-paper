@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}\itemsep=-1pt
 
+\bibitem{argyriou2007multi}
+A.~Argyriou, T.~Evgeniou, and M.~Pontil.
+\newblock Multi-task feature learning.
+\newblock In {\em Advances in neural information processing systems}, pages
+  41--48, 2007.
+
 \bibitem{bojarski2016end}
 M.~Bojarski, D.~Del~Testa, D.~Dworakowski, B.~Firner, B.~Flepp, P.~Goyal, L.~D.
   Jackel, M.~Monfort, U.~Muller, J.~Zhang, et~al.
@@ -22,6 +28,12 @@ C.~Chen, A.~Seff, A.~Kornhauser, and J.~Xiao.
 F.~Codevilla, M.~M{\"u}ller, A.~Dosovitskiy, A.~L{\'o}pez, and V.~Koltun.
 \newblock End-to-end driving via conditional imitation learning.
 \newblock {\em arXiv preprint arXiv:1710.02410}, 2017.
+
+\bibitem{evgeniou2004regularized}
+T.~Evgeniou and M.~Pontil.
+\newblock Regularized multi--task learning.
+\newblock In {\em Proceedings of the tenth ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 109--117. ACM, 2004.
 
 \bibitem{giusti2016machine}
 A.~Giusti, J.~Guzzi, D.~C. Cire{\c{s}}an, F.-L. He, J.~P. Rodr{\'\i}guez,
@@ -49,11 +61,23 @@ S.~Ioffe and C.~Szegedy.
 \newblock In {\em International conference on machine learning}, pages
   448--456, 2015.
 
+\bibitem{krasheninnikov2017autonomous}
+D.~Krasheninnikov et~al.
+\newblock Autonomous control of a rc car with a convolutional neural network.
+\newblock 2017.
+
 \bibitem{muller2006off}
 U.~Muller, J.~Ben, E.~Cosatto, B.~Flepp, and Y.~L. Cun.
 \newblock Off-road obstacle avoidance through end-to-end learning.
 \newblock In {\em Advances in neural information processing systems}, pages
   739--746, 2006.
+
+\bibitem{muller2013real}
+U.~A. Muller, L.~D. Jackel, Y.~LeCun, and B.~Flepp.
+\newblock Real-time adaptive off-road vehicle navigation and terrain
+  classification.
+\newblock In {\em Unmanned Systems Technology XV}, volume 8741, page 87410A.
+  International Society for Optics and Photonics, 2013.
 
 \bibitem{ngiam2011multimodal}
 J.~Ngiam, A.~Khosla, M.~Kim, J.~Nam, H.~Lee, and A.~Y. Ng.
@@ -67,6 +91,11 @@ M.~Quigley, K.~Conley, B.~Gerkey, J.~Faust, T.~Foote, J.~Leibs, R.~Wheeler, and
 \newblock Ros: an open-source robot operating system.
 \newblock In {\em ICRA workshop on open source software}, volume~3, page~5.
   Kobe, 2009.
+
+\bibitem{rosas2013multimodal}
+V.~P. Rosas, R.~Mihalcea, and L.-P. Morency.
+\newblock Multimodal sentiment analysis of spanish online videos.
+\newblock {\em IEEE Intelligent Systems}, 28(3):38--45, 2013.
 
 \bibitem{ross2010efficient}
 S.~Ross and D.~Bagnell.
@@ -111,6 +140,12 @@ Y.~Zhang and D.~Yeung.
 \newblock A convex formulation for learning task relationships in multi-task
   learning.
 \newblock {\em CoRR}, abs/1203.3536, 2012.
+
+\bibitem{zhang2014facial}
+Z.~Zhang, P.~Luo, C.~C. Loy, and X.~Tang.
+\newblock Facial landmark detection by deep multi-task learning.
+\newblock In {\em European Conference on Computer Vision}, pages 94--108.
+  Springer, 2014.
 
 \bibitem{zipser1996contextual}
 K.~Zipser, V.~A. Lamme, and P.~H. Schiller.

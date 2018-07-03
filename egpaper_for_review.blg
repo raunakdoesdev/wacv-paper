@@ -1,3 +1,57 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: egpaper_for_review.aux
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: egpaper_for_review.aux
 The style file: ieee.bst
 Database file #1: egbib.bib
+Repeated entry---line 627 of file egbib.bib
+ : @inproceedings{evgeniou2004regularized
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 729 of file egbib.bib
+ : @inproceedings{muller2006off
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in krasheninnikov2017autonomous
+Warning--can't use both volume and number fields in quigley2009ros
+You've used 25 entries,
+            2120 wiz_defined-function locations,
+            644 strings with 9231 characters,
+and the built_in function-call counts, 11361 in all, are:
+= -- 1103
+> -- 638
+< -- 17
++ -- 255
+- -- 226
+* -- 795
+:= -- 1789
+add.period$ -- 81
+call.type$ -- 25
+change.case$ -- 184
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 447
+empty$ -- 801
+format.name$ -- 226
+if$ -- 2442
+int.to.chr$ -- 0
+int.to.str$ -- 25
+missing$ -- 25
+newline$ -- 128
+num.names$ -- 50
+pop$ -- 218
+preamble$ -- 1
+purify$ -- 159
+quote$ -- 0
+skip$ -- 367
+stack$ -- 0
+substring$ -- 636
+swap$ -- 174
+text.length$ -- 17
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 100
+warning$ -- 2
+while$ -- 96
+width$ -- 27
+write$ -- 280
+(There were 2 error messages)

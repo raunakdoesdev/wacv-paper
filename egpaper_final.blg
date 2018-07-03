@@ -3,46 +3,55 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: egpaper_final.aux
 The style file: ieee.bst
 Database file #1: egbib.bib
+Repeated entry---line 627 of file egbib.bib
+ : @inproceedings{evgeniou2004regularized
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 729 of file egbib.bib
+ : @inproceedings{muller2006off
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in krasheninnikov2017autonomous
 Warning--can't use both volume and number fields in quigley2009ros
-You've used 19 entries,
+You've used 25 entries,
             2120 wiz_defined-function locations,
-            609 strings with 8120 characters,
-and the built_in function-call counts, 8873 in all, are:
-= -- 846
-> -- 530
-< -- 12
-+ -- 213
-- -- 190
-* -- 641
-:= -- 1414
-add.period$ -- 60
-call.type$ -- 19
-change.case$ -- 149
+            644 strings with 9221 characters,
+and the built_in function-call counts, 11361 in all, are:
+= -- 1103
+> -- 638
+< -- 17
++ -- 255
+- -- 226
+* -- 795
+:= -- 1789
+add.period$ -- 81
+call.type$ -- 25
+change.case$ -- 184
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 334
-empty$ -- 606
-format.name$ -- 190
-if$ -- 1883
+cite$ -- 27
+duplicate$ -- 447
+empty$ -- 801
+format.name$ -- 226
+if$ -- 2442
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 19
-newline$ -- 98
-num.names$ -- 38
-pop$ -- 171
+int.to.str$ -- 25
+missing$ -- 25
+newline$ -- 128
+num.names$ -- 50
+pop$ -- 218
 preamble$ -- 1
-purify$ -- 130
+purify$ -- 159
 quote$ -- 0
-skip$ -- 276
+skip$ -- 367
 stack$ -- 0
-substring$ -- 492
-swap$ -- 128
-text.length$ -- 12
+substring$ -- 636
+swap$ -- 174
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
-warning$ -- 1
-while$ -- 72
-width$ -- 21
-write$ -- 212
-(There was 1 warning)
+type$ -- 100
+warning$ -- 2
+while$ -- 96
+width$ -- 27
+write$ -- 280
+(There were 2 error messages)

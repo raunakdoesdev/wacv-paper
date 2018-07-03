@@ -1,29 +1,155 @@
-\begin{thebibliography}{1}\itemsep=-1pt
+\begin{thebibliography}{10}\itemsep=-1pt
 
-\bibitem{Alpher02}
-A.~Alpher.
-\newblock Frobnication.
-\newblock {\em Journal of Foo}, 12(1):234--778, 2002.
+\bibitem{argyriou2007multi}
+A.~Argyriou, T.~Evgeniou, and M.~Pontil.
+\newblock Multi-task feature learning.
+\newblock In {\em Advances in neural information processing systems}, pages
+  41--48, 2007.
 
-\bibitem{Alpher03}
-A.~Alpher and J.~P.~N. Fotheringham-Smythe.
-\newblock Frobnication revisited.
-\newblock {\em Journal of Foo}, 13(1):234--778, 2003.
+\bibitem{bojarski2016end}
+M.~Bojarski, D.~Del~Testa, D.~Dworakowski, B.~Firner, B.~Flepp, P.~Goyal, L.~D.
+  Jackel, M.~Monfort, U.~Muller, J.~Zhang, et~al.
+\newblock End to end learning for self-driving cars.
+\newblock {\em arXiv preprint arXiv:1604.07316}, 2016.
 
-\bibitem{Alpher04}
-A.~Alpher, J.~P.~N. Fotheringham-Smythe, and G.~Gamow.
-\newblock Can a machine frobnicate?
-\newblock {\em Journal of Foo}, 14(1):234--778, 2004.
+\bibitem{caruana1998multitask}
+R.~Caruana.
+\newblock Multitask learning.
+\newblock In {\em Learning to learn}, pages 95--133. Springer, 1998.
 
-\bibitem{Authors06b}
-Authors.
-\newblock Frobnication tutorial, 2006.
-\newblock Supplied as additional material {\tt tr.pdf}.
+\bibitem{chen2015deepdriving}
+C.~Chen, A.~Seff, A.~Kornhauser, and J.~Xiao.
+\newblock Deepdriving: Learning affordance for direct perception in autonomous
+  driving.
+\newblock In {\em Proceedings of the IEEE International Conference on Computer
+  Vision}, pages 2722--2730, 2015.
 
-\bibitem{Authors06}
-Authors.
-\newblock The frobnicatable foo filter, 2011.
-\newblock Face and Gesture submission ID 324. Supplied as additional material
-  {\tt fg324.pdf}.
+\bibitem{intel_paper}
+F.~Codevilla, M.~M{\"u}ller, A.~Dosovitskiy, A.~L{\'o}pez, and V.~Koltun.
+\newblock End-to-end driving via conditional imitation learning.
+\newblock {\em arXiv preprint arXiv:1710.02410}, 2017.
+
+\bibitem{evgeniou2004regularized}
+T.~Evgeniou and M.~Pontil.
+\newblock Regularized multi--task learning.
+\newblock In {\em Proceedings of the tenth ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 109--117. ACM, 2004.
+
+\bibitem{giusti2016machine}
+A.~Giusti, J.~Guzzi, D.~C. Cire{\c{s}}an, F.-L. He, J.~P. Rodr{\'\i}guez,
+  F.~Fontana, M.~Faessler, C.~Forster, J.~Schmidhuber, G.~Di~Caro, et~al.
+\newblock A machine learning approach to visual perception of forest trails for
+  mobile robots.
+\newblock {\em IEEE Robotics and Automation Letters}, 1(2):661--667, 2016.
+
+\bibitem{DBLP:journals/corr/HuvalWTKSPARMCM15}
+B.~Huval, T.~Wang, S.~Tandon, J.~Kiske, W.~Song, J.~Pazhayampallil,
+  M.~Andriluka, P.~Rajpurkar, T.~Migimatsu, R.~Cheng-Yue, et~al.
+\newblock An empirical evaluation of deep learning on highway driving.
+\newblock {\em arXiv preprint arXiv:1504.01716}, 2015.
+
+\bibitem{DBLP:journals/corr/IandolaMAHDK16}
+F.~N. Iandola, M.~W. Moskewicz, K.~Ashraf, S.~Han, W.~J. Dally, and K.~Keutzer.
+\newblock Squeezenet: Alexnet-level accuracy with 50x fewer parameters and
+  {\textless}1mb model size.
+\newblock {\em CoRR}, abs/1602.07360, 2016.
+
+\bibitem{ioffe2015batch}
+S.~Ioffe and C.~Szegedy.
+\newblock Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift.
+\newblock In {\em International conference on machine learning}, pages
+  448--456, 2015.
+
+\bibitem{krasheninnikov2017autonomous}
+D.~Krasheninnikov et~al.
+\newblock Autonomous control of a rc car with a convolutional neural network.
+\newblock 2017.
+
+\bibitem{muller2006off}
+U.~Muller, J.~Ben, E.~Cosatto, B.~Flepp, and Y.~L. Cun.
+\newblock Off-road obstacle avoidance through end-to-end learning.
+\newblock In {\em Advances in neural information processing systems}, pages
+  739--746, 2006.
+
+\bibitem{muller2013real}
+U.~A. Muller, L.~D. Jackel, Y.~LeCun, and B.~Flepp.
+\newblock Real-time adaptive off-road vehicle navigation and terrain
+  classification.
+\newblock In {\em Unmanned Systems Technology XV}, volume 8741, page 87410A.
+  International Society for Optics and Photonics, 2013.
+
+\bibitem{ngiam2011multimodal}
+J.~Ngiam, A.~Khosla, M.~Kim, J.~Nam, H.~Lee, and A.~Y. Ng.
+\newblock Multimodal deep learning.
+\newblock In {\em Proceedings of the 28th international conference on machine
+  learning (ICML-11)}, pages 689--696, 2011.
+
+\bibitem{quigley2009ros}
+M.~Quigley, K.~Conley, B.~Gerkey, J.~Faust, T.~Foote, J.~Leibs, R.~Wheeler, and
+  A.~Y. Ng.
+\newblock Ros: an open-source robot operating system.
+\newblock In {\em ICRA workshop on open source software}, volume~3, page~5.
+  Kobe, 2009.
+
+\bibitem{rosas2013multimodal}
+V.~P. Rosas, R.~Mihalcea, and L.-P. Morency.
+\newblock Multimodal sentiment analysis of spanish online videos.
+\newblock {\em IEEE Intelligent Systems}, 28(3):38--45, 2013.
+
+\bibitem{ross2010efficient}
+S.~Ross and D.~Bagnell.
+\newblock Efficient reductions for imitation learning.
+\newblock In {\em Proceedings of the thirteenth international conference on
+  artificial intelligence and statistics}, pages 661--668, 2010.
+
+\bibitem{ross2011reduction}
+S.~Ross, G.~Gordon, and D.~Bagnell.
+\newblock A reduction of imitation learning and structured prediction to
+  no-regret online learning.
+\newblock In {\em Proceedings of the fourteenth international conference on
+  artificial intelligence and statistics}, pages 627--635, 2011.
+
+\bibitem{6639012}
+M.~L. Seltzer and J.~Droppo.
+\newblock Multi-task learning in deep neural networks for improved phoneme
+  recognition.
+\newblock In {\em 2013 IEEE International Conference on Acoustics, Speech and
+  Signal Processing}, pages 6965--6969, May 2013.
+
+\bibitem{firstlayernometa}
+R.~Socher, B.~Huval, B.~Bath, C.~D. Manning, and A.~Y. Ng.
+\newblock Convolutional-recursive deep learning for 3d object classification.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  656--664, 2012.
+
+\bibitem{williams2017information}
+G.~Williams, N.~Wagener, B.~Goldfain, P.~Drews, J.~M. Rehg, B.~Boots, and E.~A.
+  Theodorou.
+\newblock Information theoretic mpc for model-based reinforcement learning.
+\newblock In {\em Robotics and Automation (ICRA), 2017 IEEE International
+  Conference on}, pages 1714--1721. IEEE, 2017.
+
+\bibitem{DBLP:journals/corr/abs-1212-5701}
+M.~D. Zeiler.
+\newblock {ADADELTA:} an adaptive learning rate method.
+\newblock {\em CoRR}, abs/1212.5701, 2012.
+
+\bibitem{zhang2012convex}
+Y.~Zhang and D.~Yeung.
+\newblock A convex formulation for learning task relationships in multi-task
+  learning.
+\newblock {\em CoRR}, abs/1203.3536, 2012.
+
+\bibitem{zhang2014facial}
+Z.~Zhang, P.~Luo, C.~C. Loy, and X.~Tang.
+\newblock Facial landmark detection by deep multi-task learning.
+\newblock In {\em European Conference on Computer Vision}, pages 94--108.
+  Springer, 2014.
+
+\bibitem{zipser1996contextual}
+K.~Zipser, V.~A. Lamme, and P.~H. Schiller.
+\newblock Contextual modulation in primary visual cortex.
+\newblock {\em Journal of Neuroscience}, 16(22):7376--7389, 1996.
 
 \end{thebibliography}
