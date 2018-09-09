@@ -8,13 +8,13 @@ To train our networks, we used the PyTorch\footnote{\url{https://github.com/pyto
 
 The loss function used for training and validation was Mean Squared Error  (MSE) Loss. During the training phase, the loss was calculated across all values outputted by the network, i.e., across all ten time steps following the formula
 \begin{equation} \label{eq:1}
-MSE_{train} = \dfrac{1}{2n}\sum_{t=1}^{n}(s'_t -  s_t)^2 +(m'_t - m_t)^2 
+MSE_{train} = \dfrac{1}{2n}(\sum_{t=1}^{n}(s'_t -  s_t)^2 +(m'_t - m_t)^2)
 \end{equation}
-where $n=10$ is the number of time steps in our case, $s_t$  and $m_t$ are the steering and motor values respectively outputted by the network at a given time step, and $s'_t$ and $p'_t$ are the expert steering and motor values at a given timestep.
+where $n=10$ is the number of time steps in our case, $s_t$  and $m_t$ are the steering and motor values respectively outputted by the network at a given time step, and $s'_t$ and $m'_t$ are the expert steering and motor values at a given timestep.
 
 During validation, a similar MSE loss metric was used except the loss was calculated only for the two final motor and steering output as given by
 \begin{equation} \label{eq:2}
-MSE_{validation} = \dfrac{1}{2} (s'_n -  s_n)^2 +(m'_n - m_n)^2
+MSE_{validation} = \dfrac{1}{2}((s'_n -  s_n)^2 +(m'_n - m_n)^2)
 \end{equation}
 Only the final timestep was used in measuring the validation accuracy of the networks as this is the only value which is used for evaluation on the model vehicles, and thus the only value which affects the driving performance of the model car. We chose to use the MSE loss function, as small deviations from expert driving were considered normal while larger deviations are reflective of a problem in the network's control and thus have a greater effect on the calculated error. The quadratic error curve of MSE loss allows for such results and closely mimics results from the percentage autonomy metric introduced later in the paper in which small deviations have an inconsequential effect on performance.
 
@@ -42,7 +42,7 @@ From epochs 10 to 17, the MultiNets drastically outperform the MTL networks, whi
 \begin{figure}[t]
 \centering
 \includegraphics[width=\linewidth]{paper/content/images/individual_new}
-\caption{Furtive Mode Validation of MultiNet and MTL Networks with 95\% Confidence Intervals}
+\caption{Individual Validation of MultiNet and MTL Networks with 95\% Confidence Intervals in Direct, Follow, and Furtive Modes}
 
 \label{fig:furtivegraph}
 \end{figure}
@@ -50,13 +50,13 @@ From epochs 10 to 17, the MultiNets drastically outperform the MTL networks, whi
 
 \subsection{Performance in Individual Modes}
 \label{resultspt2}
-To further investigate the network's performance in individual behavioral modes, further experiments were done to compare the MultiNet models to a single MTL network in individual modes. These experiments were conducted to evaluate how the MultiNet displays behaviors distinct to the individual driving modes. In the experiments depicted in \Cref{fig:furtivegraph}, the MultiNet models were trained on Direct, Folow, and Furtive data in each experiment while the MTL networks were trained only on the data for that experiment, e.g., for the furtive graph the MTL network was trained and validated on furtive data. Validation was done only on the data for the appropriate mode of each network, e.g., both the MTL and MultiNet models were evaluated only in furtive mode for the furtive graph.
+To further investigate the network's performance in individual behavioral modes, further experiments were done to compare the MultiNet models to a single MTL network in individual modes. These experiments were conducted to evaluate how the MultiNet displays behaviors distinct to the individual driving modes. In the experiments depicted in \Cref{fig:furtivegraph}, the MultiNet models were trained on Direct, Folow, and Furtive data in each experiment while the MTL networks were trained only on the data for that experiment, e.g., for the furtive graph the MTL network was trained and validated on furtive data. Validation was done only on the data for the appropriate mode of each network, i.e.\, both the MTL and MultiNet models were evaluated only in furtive mode for the furtive graph.
 
-In the first mode, direct mode, it is clear that both networks have similar performance levels. In the second epoch, the MTL networks outperformed the multi net networks, this is likely due to initial confusion between the behavioral modalities in the MultiNet networks. After this point we hypothesize the MultiNet models learnt the modal distinctions and thus continued to have lower loss measurements than their MTL counterparts until the end of training. Both networks seemed to learn the direct mode task quickly and had no large fluctuations in loss or overfitting as compared to the graphs for each of the other modes. This suggests direct mode is the simplest task as it doesn't involve any special behavioral activity and simply involves avoiding obstacles in the vehicle's path. 
+In the first mode, direct mode, it is clear that both networks have similar performance levels. In the second epoch, the MTL networks outperformed the MultiNet networks, this is likely due to initial confusion between the behavioral modalities in the MultiNet networks. After this point we hypothesize the MultiNet models learnt the modal distinctions and thus continued to have lower loss measurements than their MTL counterparts until the end of training. Both networks seemed to learn the direct mode task quickly and had no large fluctuations in loss or overfitting as compared to the graphs for each of the other modes. This suggests direct mode is the simplest task as it doesn't involve any special behavioral activity and simply involves avoiding obstacles in the vehicle's path. 
 
-In follow mode, the MTL networks consistently had a higher validation loss than the MultiNet networks. In the second epoch both networks had a similar validation error, but after this point the networks quickly diverged. The MTL networks seemed to flatten out and stop learning significantly after the fourth epoch. By the eighth epoch the follow mode network begins to overfit and steadily increase in loss. Meanwhile, the MultiNet network continues to become more accurate throughout the training other than in two small bumps in the loss in the ninth and twenty-second epoch. These results suggest that Multi-Net networks are more capable of learning complex tasks like following, while plain MTL networks are susceptible to overfitting and less capable of learning specific behaviors with the same number of parameters. The results also demonstrate the difference in complexity of the follow mode when compared to the simple direct modality.
+In follow mode, the MTL networks consistently had a higher validation loss than the MultiNet networks. In the second epoch both networks had a similar validation error, but after this point the networks quickly diverged. The MTL networks seemed to flatten out and stop learning significantly after the fourth epoch. By the eighth epoch the follow mode network begins to overfit and steadily increase in loss. Meanwhile, the MultiNet network continues to become more accurate throughout the training other than in two small bumps in the loss in the ninth and twenty-second epoch. These results suggest that MultiNet networks are more capable of learning complex tasks like following, while plain MTL networks are susceptible to overfitting and less capable of learning specific behaviors with the same number of parameters. The results also demonstrate the difference in complexity of the follow mode when compared to the simple direct modality.
 
-In furtive mode, the initial performance in the first four epochs was the same as what was observed for direct and follow mode. It is clear that the multi-modal models seemed to require approximately two epochs of training to begin to distinguish between different modes and develop distinct behaviors. Starting from the fifth epoch, the MTL networks began to oscillate rapidly in the recorded validation loss. This suggests that the MTL networks had found their minima already and were thus oscillating in this region. After the tenth epoch, the MTL models reached their absolute minimum validation loss. The MultiNet models continued to learn through this task and continue to learn throughout the training period, achieving the lowest validation error at the end of the twenty-four epochs. This suggests the propensity of the MultiNet networks for continuous learning without overfitting as well as for juggling complex behavioral modes like furtive mode.
+In furtive mode, the initial performance in the first four epochs was the same as what was observed for direct and follow mode. It is clear that the multi-modal models seemed to require approximately two epochs of training to begin to distinguish between different modes and develop distinct behaviors. Starting from the fifth epoch, the MTL networks began to oscillate rapidly in the recorded validation loss. This suggests that the MTL networks had found their minima already and were thus oscillating in this region. After the tenth epoch, the MTL models reached their minimum average validation loss. The MultiNet models continued to learn throughout the training period, achieving the lowest validation error at the end of the twenty-four epochs. This suggests the propensity of the MultiNet networks for continuous learning without overfitting as well as for performing in complex behavioral modes like furtive mode.
 
 % Please add the following required packages to your document preamble:
 % \usepackage{booktabs}
@@ -67,34 +67,40 @@ In furtive mode, the initial performance in the first four epochs was the same a
                                                          & \multicolumn{2}{l|}{\textbf{EVALUATION MODE}} \\ \hline
 \multicolumn{1}{|l|}{\textbf{NETWORK}}                   & \textit{Direct}       & \textit{Furtive}      \\ \hline
 \multicolumn{1}{|l|}{\textit{MultiNet}}                  & 92.68\%               & 88.23\%               \\ \hline
-\multicolumn{1}{|l|}{\textit{MTL}}                       & 84.27\%               & 87.55\%               \\ \hline\hline
-\multicolumn{1}{|l|}{\textbf{$\Delta$ (MultiNet - MTL)}} & 8.31\%                & 0.68\%                \\ \hline
+\multicolumn{1}{|l|}{\textit{MTL}}                       & 84.27\%               & 87.55\%               \\ \hline
+\multicolumn{1}{|l|}{\textbf{$\Delta$ (MultiNet - MTL)}} & 8.31\%                & 0.68\%                \\ \hline\hline
+\multicolumn{1}{|l|}{\textbf{$\Delta$ Validation Loss \%}} & 8.16\%                & 12.58\%                \\ \hline
 \end{tabular}
 \end{center}
-\caption{Percentage Autonomy for MultiNet and MTL in Direct and Furtive Modes}
+\caption{Percentage Autonomy and $\Delta$ Validation Loss \% in Direct and Furtive Modes}
 \label{resultsauto}
 \end{table}
 
 \subsection{Evaluation on Model Cars}
 
-To test the proficiency of the cars in real world driving situations, we measure the percentage autonomy metric \cite{bojarski2016end} measured To test the proficiency of the cars in real world driving situations, we adopt the percentage autonomy metric \cite{bojarski2016end} measured as
+To test the proficiency of the models in real world driving situations, we measure the percentage autonomy metric \cite{bojarski2016end} measured as
 
 \begin{equation}
     autonomy = (1 - \dfrac{correction\ time}{elapsed\ time}) \cdot 100
    \label{eq:autonomy}
 \end{equation}
 
-For the live experiments, MTL and MultiNet networks were evaluated on a winding 200 m loop of sidewalk (\Cref{fig:evalpath}) with sufficient obstacles within a one hour interval. Direct and furtive modes were used when evaluating the cars and follow mode was excluded as driving of the leader car could affect performance of the following car. The networks for on the road evaluation were chosen at the point of absolute minimum average validation error across the trials, i.e., we chose the epoch and trial which minimized the average validation error for both the MultiNet and MTL networks. This minimum occured at epoch 23 on a specific trial, before either network began to overfit. 
+For the live experiments, both MTL and MultiNet networks were evaluated on a winding 200 m loop of sidewalk (\Cref{fig:evalpath}) with sufficient obstacles within a one hour interval. Only direct and furtive modes were used when evaluating the cars, while follow mode was excluded because t he driving of the leader car may differ between runs making a quantitative analysis impractical. The networks for on the road evaluation were chosen at the point of minimum average validation error across the trials, i.e., we chose the epoch and trial which minimized the average validation error for both the MultiNet and MTL networks. This minimum occured at epoch 23 on a specific trial, before either network began to overfit. 
 
 
-The results from our live experiments are depicted in \Cref{resultsauto}. It is immediately apparent that the MultiNet networks were superior to the MTL networks in both evaluation modes. 
+The results from our live experiments are depicted in \Cref{resultsauto}. It is apparent that the MultiNet networks were superior to the MTL networks in both evaluation modes. However the difference is more pronounced in the direct mode than the furtive mode. To understand why this is occurring, we have to take a careful look at the autonomy metric which is used to measure performance.
 
-Initially, it is noticeable that the performance difference for MTL and MultiNet is much greater in Direct mode than in Furtive Mode. This seems to contradict the gap noticed in \Cref{fig:furtivegraph}; however, when qualitatively observing the networks driving, it is apparent that furtive behavior involves driving much closer to the observed boundaries and quick darting motions which make it susceptible to grazing obstacles and engaging human intervention. In fact, the MultiNet network displayed behavior much more characteristic of "furtive" behavior in comparison to the MTL networks, while still managing to avoid obstacles and have an increased autonomy metric compared to its MTL counterpart. For example, the MultiNet networks displayed characteristic speed modulation by speeding up in open spaces and slowing down while near foliage. This exagerated behavior was not mirrored by the MTL network trained solely on furtive mode data. This demonstrates the MultiNet network's ability to act distinctly in different behavioral modes through the use of the inserted modal data.
+The standard autonomy metric is a good indicator of performance in direct mode, as performance in this mode is solely based on the network's path following and obstacle avoidance abilities. The autonomy metric directly measures this ability.
+The furtive mode on the other hand, involves more complex driving behaviors such as speed modulation near foliage, staying close to observed boundaries, in addition to path following and avoiding obstacles. The autonomy metric does not measure these subtle behaviors.
+When driving near the edge the chance of going off course is greater and hence the vehicle requires more manual correction. This effectively reduces the autonomy measurement. For these reasons, the standard autonomy metric isn't sufficient when measuring performance in a furtive driving mode in which more complex behaviors than obstacle avoidance are involved.
 
-We additionally compared the validation errors of the models evaluated on the road to the autonomy metric using the following metric:
+When observing the MTL and MultiNet networks qualitatively in furtive mode, it is clear that the MultiNet network exhibits more pronounced furtive speed modulation behavior while staying close to boundaries when compared to the MTL network. This characteristic furtive behavior demonstrates the ability of MultiNet networks to act distinctly in multiple behavioral modes with the use of inserted modal data. We have included a supplementary AVI format video which contains segments of footage from each of the live experiments as well as examples of each driving mode. This will be available at \url{http://ieeexplore.ieee.org}.
+
+\subsection{Results Verification}
+To verify the results from the validation metric in \Cref{resultspt1} and \Cref{resultspt2}, we computed the percentage difference in performance according to the validation loss to compare the MSE loss metric to the autonomy metric in the live experiments. The percentage difference in validation loss was computed with the following equation:
 
 \begin{equation}
 \Delta\ Loss\ \% = \dfrac{MTL\ Loss - MultiNet\ Loss}{MultiNet\ Loss} \times 100
 \end{equation}
 
-The $\Delta \ Loss$ \% obtained from validation of the models which were run in the live experiments were 8.16 \% and  12.58 \% for direct and follow mode respectively. Considering the reasons for the variations in the autonomy metric in furtive mode, the accurate direct mode validation loss in comparison to the percentage difference in autonomy further validates the results in \Cref{resultspt1} and \Cref{resultspt2} as representative of the vehicle's actual performance.
+The $\Delta \ Loss$ \% values for MultiNet and MTL networks in both Direct and Furtive mode are displayed at the bottom of \Cref{resultsauto}. For direct mode, the $\Delta \ Loss$ \% is very similar to the percentage difference in autonomy. This suggests the MSE loss metric is a valid indicator for a network's driving performance. For the furtive mode, the $\Delta \ Loss$ \% is significantly greater than the difference in autonomy which suggests the MSE loss metric used for validation effectively accounts for a network's display of characteristic behaviors in a behavioral mode which were observed qualitatively. This supports the conclusions made earlier from analysis of MultiNet and MTL performance using the MSE loss metric.
